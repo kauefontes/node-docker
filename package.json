@@ -4,7 +4,8 @@
   "description": "Node project using express and docker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,11 @@
   "devDependencies": {
     "eslint": "^7.25.0",
     "eslint-config-google": "^0.14.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^10.5.4",
     "prettier": "2.2.1"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   }
 }
