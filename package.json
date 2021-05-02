@@ -1,0 +1,25 @@
+{
+  "name": "docker",
+  "version": "1.0.0",
+  "description": "Node project using express and docker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauefontes/node-docker.git"
+  },
+  "author": "Kaue Pereira (Quewui)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kauefontes/node-docker/issues"
+  },
+  "homepage": "https://github.com/kauefontes/node-docker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
